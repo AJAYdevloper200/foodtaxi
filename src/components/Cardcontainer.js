@@ -98,7 +98,7 @@ const Cardcontainer = () =>{
                                             },     
     ]
     return(
-        <div className="container d-flex flex-wrap gap-4">
+        <div className="container d-flex flex-wrap gap-4 justify-content-center">
            {
             restaurantList.map((restaurant,index)=>{
                 return(

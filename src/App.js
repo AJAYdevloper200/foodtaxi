@@ -1,4 +1,4 @@
-// import logo from './assest/kindpng_1526866-removebg-preview.png'
+import logo from './assest/kindpng_1526866-removebg-preview.png'
 import './App.css';
 import Header from "./components/Header"
 import Body from "./components/Body"
@@ -14,7 +14,7 @@ const App = () => {
     <>
       <Header/>
       <Body/>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }

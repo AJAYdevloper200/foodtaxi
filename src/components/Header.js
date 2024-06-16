@@ -1,9 +1,11 @@
+import logo from "../assest/kindpng_1526866-removebg-preview.png"
+
 const Header = () =>{
     return(
       <nav className="navbar p-0 navbar-expand-sm bg-grey navbar-light">
       <div className="container-fluid">
           <a className="navbar-brand" href="#">
-              {/* <img src={logo} style={{ width: '42px', margin: '3px' }} alt="Logo" /> */}
+              <img src={logo} style={{ width: '42px', margin: '3px' }} alt="Logo" />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
               <span className="navbar-toggler-icon"></span>
